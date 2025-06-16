@@ -110,6 +110,19 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
+    // 下面是资源失效率高的API源，不建议使用
+    subo: {
+        api: 'https://subocaiji.com/api.php/provide/vod',
+        name: '速播资源'
+    },
+    fczy: {
+        api: 'https://api.fczy888.me/api.php/provide/vod',
+        name: '蜂巢资源'
+    },
+    ukzy: {
+        api: 'https://api.ukuapi88.com/api.php/provide/vod',
+        name: 'U酷资源'
+    },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
@@ -159,33 +172,78 @@ const API_SITES = {
         name: '玉兔资源',
         adult: true
     },
-    sesezy: {
-        api: 'https://sesezy.com/api.php/provide/vod',
-        name: '色色资源',
-        adult: true
+    // 自定义-黄色
+    jingpin: {
+        api: 'https://www.jingpinx.com/api.php/provide/vod',
+        name: '精品资源',
+        adult: true,
+        type: 'json'
     },
-    caiji: {
-        api: 'https://www.caiji.tv/api.php/provide/vod',
-        name: '采集TV',
-        adult: true
+    semao: {
+        api: 'https://api.maozyapi.com/inc/apijson_vod.php',
+        name: '色猫资源',
+        adult: true,
+        type: 'json'
     },
-    mgzy: {
-        api: 'https://mgzyz1.com/api.php/provide/vod',
-        name: '芒果资源',
-        adult: true
+    semao2: {
+        api: 'https://caiji.semaozy.net/inc/apijson_vod.php',
+        name: '色猫资源2',
+        adult: true,
+        type: 'json'
     },
-    // 下面是资源失效率高的API源，不建议使用
-    subo: {
-        api: 'https://subocaiji.com/api.php/provide/vod',
-        name: '速播资源'
+	lebo: {
+        api: 'https://lbapi9.com/api.php/provide/vod',
+        name: '乐播资源',
+        adult: true,
+        type: 'json'
     },
-    fczy: {
-        api: 'https://api.fczy888.me/api.php/provide/vod',
-        name: '蜂巢资源'
+    senlin: {
+        api: 'https://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
+        adult: true,
+        type: 'json'
     },
-    ukzy: {
-        api: 'https://api.ukuapi88.com/api.php/provide/vod',
-        name: 'U酷资源'
+    didi: {
+        api: 'https://api.ddapi.cc/api.php/provide/vod',
+        name: '滴滴资源',
+        adult: true,
+        type: 'json'
+    },
+    lasebi: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
+        name: '老色逼资源',
+        adult: true,
+        type: 'json'
+    },
+    shayu: {
+        api: 'https://shayuapi.com/api.php/provide/vod',
+        name: '鲨鱼资源',
+        adult: true,
+        type: 'json'
+    },
+    r155_2: {
+        api: 'https://155api.com/api.php/provide/vod',
+        name: '155资源',
+        adult: true,
+        type: 'json'
+    },
+    lajiao: {
+        api: 'https://apilj.com/api.php/provide/vod/at/json',
+        name: '辣椒资源',
+        adult: true,
+        type: 'json'
+    },
+    r91md: {
+        api: 'http://91md.me/api.php/provide/vod',
+        name: '91MD资源',
+        adult: true,
+        type: 'json'
+    },
+    aosika: {
+        api: 'https://aosikazy.com/api.php/provide/vod',
+        name: '奥斯卡资源',
+        adult: true,
+        type: 'json'
     },
 };
 
